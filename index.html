@@ -7,13 +7,13 @@
     <link rel="stylesheet" type="text/css" href="css/animations.css">
     <link href="https://fonts.googleapis.com/css?family=Lato:800,400,300" rel="stylesheet">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <!--<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">-->
     <link rel="stylesheet" type="text/css" href="css/style.css">
     <title>ESUMMIT-18 | Home</title>
     <link rel="icon" href="assets/icon.png">
 </head>
 
 <body class="text-center" id="body">
+    <div id="loader"><img src="assets/loader.gif"></div>
     <nav class="navbar fixed-top navbar-expand-lg navbar-light box-shadow">
         <div class="container">
             <a class="navbar-brand mt-lg-1 mb-lg-1" href="#"><img src="assets/logo.png" class="responsive-image"></a>
@@ -116,30 +116,35 @@
             </div>
             <div class="row">
                 <div class="col-md-4">
-                    <div class="card mb-5">
-                        <img class="card-img-top" src="assets/speakersession.jpeg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Speaker Session</h5>
-                            <p class="card-text">Speakers were invited to share their journey and life experiences. Each speaker had a different background and varied age group.</p>
-                        </div>
+                    <div class="text-center">
+                        <a href="#"><img class="ml-2 event-icon" src="assets/icon-act.png"></a>
+                        <p>Act Now<br/>(Speaker Session)</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card mb-5">
-                        <img class="card-img-top" src="assets/internfair.jpeg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">Internship Fair</h5>
-                            <p class="card-text">Two day internship fair was organized. The internships were offered for various roles in Mechanical engineering, Electrical Engineering, Project management, Business Development, Marketing, Operations, CRM and Cinematography etc.</p>
-                        </div>
+                    <div class="text-center">
+                        <a href="#"><img class="ml-2 event-icon" src="assets/icon-intern.png"></a>
+                        <p>Internship Fair</p>
                     </div>
                 </div>
                 <div class="col-md-4">
-                    <div class="card mb-5">
-                        <img class="card-img-top" src="assets/bplan.jpeg" alt="Card image cap">
-                        <div class="card-body">
-                            <h5 class="card-title">B-Plan Competition</h5>
-                            <p class="card-text">Business plan competition had great opportunities to get funded for business ideas, get feedback on strategic plan, and exposure to the right audience.</p>
-                        </div>
+                    <div class="text-center">
+                        <a href="#"><img class="ml-2 event-icon" src="assets/icon-bplan.png"></a>
+                        <p>Pitch It<br/>(B-Plan Competition)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 offset-md-2">
+                    <div class="text-center">
+                        <a href="#"><img class="ml-2 event-icon" src="assets/icon-net.png"></a>
+                        <p>Social Track</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <a href="#"><img class="ml-2 event-icon" src="assets/icon-expo.png"></a>
+                        <p>Upstart Conquest</p>
                     </div>
                 </div>
             </div>
@@ -559,15 +564,9 @@
             </div>
         </div>
     </div>
-    <!--Footer-->
-    <footer class="page-footer font-small stylish-color-dark pt-4 pb-2">
-
-        <!--Social buttons-->
-        <div class="text-center">
-            <ul class="list-unstyled list-inline">
-                <li class="list-inline-item">
-                    <a href="#" target="_blank" id="twitter">Website</a>
-                </li>
+    <footer class="page-footer font-small stylish-color-dark pt-4 pb-4">
+        <div class="container">
+            <ul class="list-unstyled list-inline d-inline float-md-left float-sm-none">
                 <li class="list-inline-item">
                     <a href="https://www.facebook.com/ecell.jssaten/" target="_blank" id="facebook">Facebook</a>
                 </li>
@@ -577,16 +576,15 @@
                 <li class="list-inline-item">
                     <a href="#" id="instagram">Instagram</a>
                 </li>
+                <li class="list-inline-item">
+                    <a href="mailto:info@edcjss.in" id="email">Drop a mail</a>
+                </li>
+            </ul>
+            <ul class="list-unstyled d-inline float-md-right float-sm-none">
+                <li class="footer-text"><img src="assets/venue.png">JSS Academy of Technical Education, Sector-62</li>
+                <li class="footer-copyright">© 2018 Copyright : ECell JSSATE, Noida</li>
             </ul>
         </div>
-        <!--/.Social buttons-->
-
-        <!--Copyright-->
-        <div class="footer-copyright py-3 text-center">
-            © 2018 Copyright : ECell JSSATE, Noida
-        </div>
-        <!--/.Copyright-->
-
     </footer>
     <script src="js/script.js"></script>
     <script src="js/jquery.min.js"></script>
@@ -604,9 +602,9 @@
                 }
             });
         });
+
     </script>
     <script src="js/css3-animate-it.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key= AIzaSyBVagklOrOjo9umNEJSD16Dli03q1KBhS4 &callback=myMap"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script type="text/javascript">
@@ -622,6 +620,7 @@
                 });
             });
         })(jQuery);
+
     </script>
     <script type="application/javascript">
         var a = 0;
@@ -656,6 +655,7 @@
             }
 
         });
+
     </script>
 </body>
 

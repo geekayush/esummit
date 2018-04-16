@@ -8,6 +8,19 @@ body {
     width: 100%;
 }
 
+#loader {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background: #172525;
+}
+
+#loader img {
+    margin-top: 40vh;
+    width: 150px;
+    height: 150px;
+}
+
 .navbar {
     background-color: #172525;
 }
@@ -90,6 +103,20 @@ body {
     color: #172525;
 }
 
+.section-events img {
+    height: 200px;
+    width: 200px;
+}
+
+.event-icon {
+    transition: transform 0.3s;
+}
+
+.event-icon:hover {
+    transform: scale(0.9);
+}
+
+/*
 .section-events .card {
     background: #172525;
     border: none;
@@ -107,6 +134,7 @@ body {
     color: #ebe1be;
     font-weight: 100;
 }
+*/
 
 .section-past {
     color: #172525;
@@ -154,6 +182,10 @@ body {
 
 #instagram:hover {
     color: #e4405f;
+}
+
+#email:hover {
+    color: cadetblue;
 }
 
 .rollOver.expand {
@@ -232,18 +264,18 @@ nav .btn {
 
 }
 
-.footer {
+footer {
     background-color: #172525;
     height: 100px;
 }
 
-#googleMap {
+.footer-text {
+    color: #ebe1be;
+}
 
-    width: 100%;
-    height: 400px;
-    -webkit-filter: grayscale(100%);
-    /* Safari 6.0 - 9.0 */
-    filter: grayscale(100%);
+.footer-text img {
+    margin-bottom: 4px;
+    margin-right: 2px;
 }
 
 @media screen and (max-width: 600px) {
@@ -273,4 +305,8 @@ nav .btn {
 .partner {
     height: 100px;
     width: auto;
+}
+
+.list-inline-item a {
+    transition: all 0.3s;
 }

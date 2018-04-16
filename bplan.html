@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="css/animations.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato:800,400,300" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <title>ESUMMIT-18 | Pitch It</title>
+    <link rel="icon" href="assets/icon.png">
+</head>
+
+<body class="text-center" id="body">
+    <div id="loader"><img src="assets/loader.gif"></div>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light box-shadow">
+        <div class="container">
+            <a class="navbar-brand mt-lg-1 mb-lg-1" href="#"><img src="assets/logo.png" class="responsive-image"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-1 mb-lg-1">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#body">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-button">
+                        <a class="btn btn-primary btn-teal">Reach us</a>
+                    </li>
+                    <li class="nav-button">
+                        <a class="btn btn-primary btn-red ml-md-2">Pre-Register for 2018</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="section-image">
+    </div>
+    <div class="section-about pt-5 pb-5" id="about">
+        <div class="container section">
+            <div class="row text-center">
+                <div class="col-md-12 mt-5 mb-5 animatedParent">
+                    <h1 class="animated fadeInUp">
+                        What is Pitch It?
+                    </h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 offset-md-1 mb-5">
+                    <p>
+                        The Entrepreneurship Summit Noida is a one stop destination for the youth community, venture capitalists, new age entrepreneurs and people passionate for entrepreneurship to engage in activities that foster entrepreneurial spirit and encourage people to take initiatives and actions in their own lives.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-events pt-5 pb-5" id="events">
+        <div class="container section">
+            <div class="row">
+                <div class="col-md-12 mt-5 mb-5 animatedParent">
+                    <h1 class="animated fadeInLeft">Description of Pitch It</h1>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-10 offset-md-1 mb-5">
+                    <ul class="list-unstyled list-inline">
+                        <li class="list-item">Lorem Ipsum dol set</li>
+                        <li class="list-item">Lorem Ipsum dol set</li>
+                        <li class="list-item">Lorem Ipsum dol set</li>
+                        <li class="list-item">Lorem Ipsum dol set</li>
+                        <li class="list-item">Lorem Ipsum dol set</li>
+                        <li class="list-item">Lorem Ipsum dol set</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer font-small stylish-color-dark pt-4 pb-4">
+        <div class="container">
+            <ul class="list-unstyled list-inline d-inline float-md-left float-sm-none">
+                <li class="list-inline-item">
+                    <a href="https://www.facebook.com/ecell.jssaten/" target="_blank" id="facebook">Facebook</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="https://www.linkedin.com/company/student-entrepreneurship-development-group/" target="_blank" id="linkedin">LinkedIn</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="#" id="instagram">Instagram</a>
+                </li>
+                <li class="list-inline-item">
+                    <a href="mailto:info@edcjss.in" id="email">Drop a mail</a>
+                </li>
+            </ul>
+            <ul class="list-unstyled d-inline float-md-right float-sm-none">
+                <li class="footer-text"><img src="assets/venue.png">JSS Academy of Technical Education, Sector-62</li>
+                <li class="footer-copyright">© 2018 Copyright : ECell JSSATE, Noida</li>
+            </ul>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("a").on('click', function(event) {
+                if (this.hash !== "") {
+                    event.preventDefault();
+                    var hash = this.hash;
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function() {
+                        window.location.hash = hash;
+                    });
+                }
+            });
+        });
+
+    </script>
+    <script src="js/css3-animate-it.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        (function($) {
+            $(document).ready(function() {
+                $(".navbar").hide();
+                $(window).scroll(function() {
+                    if ($(this).scrollTop() > 200) {
+                        $('.navbar').fadeIn(300);
+                    } else {
+                        $('.navbar').fadeOut(300);
+                    }
+                });
+            });
+        })(jQuery);
+
+    </script>
+    <script type="application/javascript">
+        var a = 0;
+        $(window).scroll(function() {
+
+            var oTop = $('#counter').offset().top - window.innerHeight;
+            if (a == 0 && $(window).scrollTop() > oTop) {
+                $('.counter-value').each(function() {
+                    var $this = $(this),
+                        countTo = $this.attr('data-count');
+                    $({
+                        countNum: $this.text()
+                    }).animate({
+                            countNum: countTo
+                        },
+
+                        {
+
+                            duration: 2000,
+                            easing: 'swing',
+                            step: function() {
+                                $this.text(Math.floor(this.countNum));
+                            },
+                            complete: function() {
+                                $this.text(this.countNum);
+                                //alert('finished');
+                            }
+
+                        });
+                });
+                a = 1;
+            }
+
+        });
+
+    </script>
+</body>
+
+</html>

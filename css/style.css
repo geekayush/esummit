@@ -118,15 +118,15 @@ body {
     background: #ebe1be;
 }
 
-.section-events2{
-    background:#172525;
+.section-events2 {
+    background: #172525;
 }
 
-.section-events2 li{
+.section-events2 li {
     color: #ebe1be;
 }
 
-.section-events2 h1{
+.section-events2 h1 {
     color: #ebe1be;
 }
 
@@ -305,10 +305,10 @@ footer {
     margin-right: 2px;
 }
 
-.list-item{
+.list-item {
     font-size: 1.3rem;
     line-height: 1.3;
-    padding:10px;
+    padding: 10px;
 }
 
 @media screen and (max-width: 600px) {
@@ -340,14 +340,14 @@ footer {
     }
 
     .section-imagesocial {
-    background-image: url(../assets/SOCIALPHONE.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-origin: content-box;
-    height: 100vh;
-}
+        background-image: url(../assets/SOCIALPHONE.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-origin: content-box;
+        height: 100vh;
+    }
 
-    #about p{
+    #about p {
         font-size: 1.1em;
     }
 }
@@ -361,10 +361,19 @@ footer {
     width: auto;
 }
 
-.list{
+.list {
     list-style: none;
 }
 
 .list-inline-item a {
     transition: all 0.3s;
+}
+
+.struc li a {
+    color: #ee3268;
+    font-weight: 700;
+}
+
+.struc li a:hover {
+    text-decoration: none;
 }

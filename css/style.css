@@ -73,6 +73,14 @@ body {
     height: 100vh;
 }
 
+.section-imagesocial {
+    background-image: url(../assets/SOCIALDESK.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+    height: 100vh;
+}
+
 .section-numbers {
     background-color: #EBE1BE;
 }
@@ -322,6 +330,7 @@ footer {
         height: 100vh;
     }
 
+
     .section-imageupstart {
         background-image: url(../assets/UPHONE.jpg);
         background-repeat: no-repeat;
@@ -329,6 +338,14 @@ footer {
         background-origin: content-box;
         height: 100vh;
     }
+
+    .section-imagesocial {
+    background-image: url(../assets/SOCIALDESK.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+    height: 100vh;
+}
 }
 
 .navbar-light .navbar-toggler-icon {
@@ -338,6 +355,10 @@ footer {
 .partner {
     height: 100px;
     width: auto;
+}
+
+.list{
+    list-style: none;
 }
 
 .list-inline-item a {

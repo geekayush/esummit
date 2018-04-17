@@ -340,12 +340,16 @@ footer {
     }
 
     .section-imagesocial {
-    background-image: url(../assets/SOCIALDESK.jpg);
+    background-image: url(../assets/SOCIALPHONE.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-origin: content-box;
     height: 100vh;
 }
+
+    #about p{
+        font-size: 1.1em;
+    }
 }
 
 .navbar-light .navbar-toggler-icon {

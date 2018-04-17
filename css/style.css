@@ -65,6 +65,14 @@ body {
     height: 100vh;
 }
 
+.section-imageupstart {
+    background-image: url(../assets/UDESK.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-origin: content-box;
+    height: 100vh;
+}
+
 .section-numbers {
     background-color: #EBE1BE;
 }
@@ -100,7 +108,18 @@ body {
 
 .section-events {
     background: #ebe1be;
-    color: #172525;
+}
+
+.section-events2{
+    background:#172525;
+}
+
+.section-events2 li{
+    color: #ebe1be;
+}
+
+.section-events2 h1{
+    color: #ebe1be;
 }
 
 .section-events img {
@@ -278,6 +297,12 @@ footer {
     margin-right: 2px;
 }
 
+.list-item{
+    font-size: 1.3rem;
+    line-height: 1.3;
+    padding:10px;
+}
+
 @media screen and (max-width: 600px) {
     nav .btn {
         font-weight: 800;
@@ -291,6 +316,14 @@ footer {
     }
     .section-image {
         background-image: url(../assets/banner-small.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-origin: content-box;
+        height: 100vh;
+    }
+
+    .section-imageupstart {
+        background-image: url(../assets/UPHONE.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-origin: content-box;

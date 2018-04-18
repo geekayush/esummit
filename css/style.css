@@ -186,6 +186,36 @@ body {
     background: #ebe1be;
 }
 
+.section-tickets {
+    background: #172525;
+}
+
+.section-tickets h1 {
+    color: #ebe1be;
+}
+
+.section-tickets .card-deck .card {
+    background: #ebe1be;
+    color: #172525;
+}
+
+.section-tickets .card-deck .card .card-body .card-title {
+    font-weight: 800;
+}
+
+.section-tickets .card-deck .card .card-body .card-text {
+    font-size: 16px;
+}
+
+.card-body ul li {
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.card-body ul li:before {
+    content: '-  ';
+}
+
 .page-footer {
     background: #172525;
 }

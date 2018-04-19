@@ -244,7 +244,7 @@ body {
 #email:hover {
     color: cadetblue;
 }
-
+/*
 .rollOver.expand {
     max-height: 800px;
 }
@@ -254,6 +254,7 @@ body {
     overflow: hidden;
     transition: all .3s ease;
 }
+*/
 
 .box-shadow {
     -webkit-box-shadow: 0 2px 5px #bbb;
